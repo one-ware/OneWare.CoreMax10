@@ -1,0 +1,37 @@
+{
+    "category": "FPGA Boards",
+    "type": "Hardware",
+    "name": "Core MAX10 Support",
+    "id": "OneWare.CoreMAX10",
+    "description": "Core MAX10 and Core MAX10 Ultra Integration",
+    "iconUrl": "https://raw.githubusercontent.com/one-ware/OneWare.CoreMax10/main/demo.png",
+    "license": "MIT",
+    "tabs": [
+      {
+        "title": "Readme",
+        "contentUrl": "https://raw.githubusercontent.com/one-ware/OneWare.CoreMax10/main/README.md"
+      },
+      {
+        "title": "License",
+        "contentUrl": "https://raw.githubusercontent.com/one-ware/OneWare.CoreMax10/main/LICENSE"
+      }
+    ],
+    "links": [
+      {
+        "name": "Github",
+        "url": "https://github.com/one-ware/OneWare.CoreMax10"
+      }
+    ],
+    "versions": [
+      {
+        "version": "1.0",
+        "targets": [
+          {
+            "target": "all",
+            "url": "https://github.com/one-ware/OneWare.CoreMax10/releases/download/1.0/OneWare.CoreMax10_1.0_all.zip"
+          }
+        ]
+      }
+    ]
+  }
+  
