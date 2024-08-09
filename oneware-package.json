@@ -28,7 +28,7 @@
         "targets": [
           {
             "target": "all",
-            "url": "https://github.com/one-ware/OneWare.CoreMax10/releases/download/1.0/OneWare.CoreMax10_1.0_all.zip"
+            "url": "https://github.com/one-ware/OneWare.CoreMax10/releases/download/1.0/OneWare.CoreMax10-1.0-all.zip"
           }
         ]
       }

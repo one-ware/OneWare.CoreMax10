@@ -1,7 +1,420 @@
 {
-  "width": 324,
-  "height": 180,
+  "width": 558,
+  "height": 260,
   "elements": [
-    
+    {
+      "type": "rect",
+      "x": 40,
+      "y": 40,
+      "width": 228,
+      "height": 180,
+      "color": "#42725C"
+    },
+    {
+      "type": "rect",
+      "x": 290,
+      "y": 40,
+      "width": 228,
+      "height": 180,
+      "color": "#42725C"
+    },
+    {
+      "type": "image",
+      "src": "Max10FrontOverlay.png",
+      "x": 290,
+      "y": 40,
+      "height": 180
+    },
+    {
+      "type": "ellipse",
+      "x": 362,
+      "y": 76,
+      "height": 20,
+      "width": 20,
+      "color": "gold"
+    },
+    {
+      "type": "ellipse",
+      "x": 367,
+      "y": 81,
+      "height": 10,
+      "width": 10,
+      "color": "black"
+    },
+    {
+      "type": "ellipse",
+      "x": 362,
+      "y": 164,
+      "height": 20,
+      "width": 20,
+      "color": "gold"
+    },
+    {
+      "type": "ellipse",
+      "x": 367,
+      "y": 169,
+      "height": 10,
+      "width": 10,
+      "color": "black"
+    },
+    {
+      "type": "ellipse",
+      "x": 496,
+      "y": 76,
+      "height": 20,
+      "width": 20,
+      "color": "gold"
+    },
+    {
+      "type": "ellipse",
+      "x": 501,
+      "y": 81,
+      "height": 10,
+      "width": 10,
+      "color": "black"
+    },
+    {
+      "type": "ellipse",
+      "x": 496,
+      "y": 164,
+      "height": 20,
+      "width": 20,
+      "color": "gold"
+    },
+    {
+      "type": "ellipse",
+      "x": 501,
+      "y": 169,
+      "height": 10,
+      "width": 10,
+      "color": "black"
+    },
+    {
+      "type": "pinArray",
+      "x": 50,
+      "y": 45,
+      "pins": [
+        {
+          "color": "5V",
+          "label": "5V   "
+        },
+        {
+          "bind": "L5",
+          "label": "A0_N   "
+        },
+        {
+          "bind": "K5",
+          "label": "A1_N   "
+        },
+        {
+          "bind": "J6",
+          "label": "A2_N   "
+        },
+        {
+          "bind": "N6",
+          "label": "A3_N   "
+        },
+        {
+          "bind": "M4",
+          "label": "A4_N   "
+        },
+        {
+          "bind": "N4",
+          "label": "A5_N   "
+        },
+        {
+          "bind": "M8",
+          "label": "HS2   "
+        },
+        {
+          "color": "orange",
+          "label": "VADJ   "
+        },
+        {
+          "bind": "H2",
+          "label": "LS19   "
+        },
+        {
+          "bind": "E6",
+          "label": "LS4   "
+        },
+        {
+          "bind": "A3",
+          "label": "LS5   "
+        },
+        {
+          "bind": "B6",
+          "label": "LS6   "
+        },
+        {
+          "bind": "B5",
+          "label": "LS7   "
+        },
+        {
+          "bind": "E4",
+          "label": "AN2   "
+        },
+        {
+          "bind": "E3",
+          "label": "AN3   "
+        },
+        {
+          "label": "GND   ",
+          "color": "GND"
+        }
+      ]
+    },
+    {
+      "type": "pinArray",
+      "x": 60,
+      "y": 45,
+      "flipLabel": true,
+      "textColor": "white",
+      "pins": [
+        {
+          "color": "GND",
+          "label": "GND"
+        },
+        {
+          "bind": "L4",
+          "label": "A0_P"
+        },
+        {
+          "bind": "J5",
+          "label": "A1_P"
+        },
+        {
+          "bind": "K6",
+          "label": "A2_P"
+        },
+        {
+          "bind": "M7",
+          "label": "A3_P"
+        },
+        {
+          "bind": "M5",
+          "label": "A4_P"
+        },
+        {
+          "bind": "N5",
+          "label": "A5_P"
+        },
+        {
+          "bind": "M9",
+          "label": "HS1"
+        },
+        {
+          "color": "3V3",
+          "label": "3V3"
+        },
+        {
+          "bind": "H3",
+          "label": "LS18"
+        },
+        {
+          "bind": "G4",
+          "label": "LS0"
+        },
+        {
+          "bind": "F4",
+          "label": "LS1"
+        },
+        {
+          "bind": "A4",
+          "label": "LS2"
+        },
+        {
+          "bind": "B3",
+          "label": "LS3"
+        },
+        {
+          "bind": "F1",
+          "label": "AN0"
+        },
+        {
+          "bind": "E1",
+          "label": "AN1"
+        },
+        {
+          "label": "VIN",
+          "color": "VIN"
+        }
+      ]
+    },
+    {
+      "type": "pinArray",
+      "x": 208,
+      "y": 45,
+      "textColor": "white",
+      "pins": [
+        {
+          "color": "5V",
+          "label": "5V"
+        },
+        {
+          "bind": "J7",
+          "label": "B0_N"
+        },
+        {
+          "bind": "M13",
+          "label": "B1_N"
+        },
+        {
+          "bind": "M11",
+          "label": "B2_N"
+        },
+        {
+          "bind": "J8",
+          "label": "B3_N"
+        },
+        {
+          "bind": "N7",
+          "label": "B4_N"
+        },
+        {
+          "bind": "M10",
+          "label": "B5_N"
+        },
+        {
+          "bind": "N10",
+          "label": "HS4"
+        },
+        {
+          "color": "orange",
+          "label": "VADJ"
+        },
+        {
+          "bind": "E8",
+          "label": "LS17"
+        },
+        {
+          "bind": "A8",
+          "label": "LS12"
+        },
+        {
+          "bind": "A7",
+          "label": "LS13"
+        },
+        {
+          "bind": "A6",
+          "label": "LS14"
+        },
+        {
+          "bind": "D6",
+          "label": "LS15"
+        },
+        {
+          "bind": "C2",
+          "label": "AN6"
+        },
+        {
+          "bind": "D1",
+          "label": "AN7"
+        },
+        {
+          "label": "GND",
+          "color": "GND"
+        }
+      ]
+    },
+    {
+      "type": "pinArray",
+      "x": 218,
+      "y": 45,
+      "flipLabel": true,
+      "textColor": "white",
+      "pins": [
+        {
+          "color": "GND",
+          "label": "GND"
+        },
+        {
+          "bind": "K7",
+          "label": "B0_P"
+        },
+        {
+          "bind": "M12",
+          "label": "B1_P"
+        },
+        {
+          "bind": "L11",
+          "label": "B2_P"
+        },
+        {
+          "bind": "K8",
+          "label": "B3_P"
+        },
+        {
+          "bind": "N8",
+          "label": "B4_P"
+        },
+        {
+          "bind": "L10",
+          "label": "B5_P"
+        },
+        {
+          "bind": "N9",
+          "label": "HS3"
+        },
+        {
+          "color": "3V3",
+          "label": "3V3"
+        },
+        {
+          "bind": "C10",
+          "label": "LS16"
+        },
+        {
+          "bind": "C9",
+          "label": "LS8"
+        },
+        {
+          "bind": "D8",
+          "label": "LS9"
+        },
+        {
+          "bind": "B9",
+          "label": "LS10"
+        },
+        {
+          "bind": "A9",
+          "label": "LS11"
+        },
+        {
+          "bind": "B1",
+          "label": "AN4"
+        },
+        {
+          "bind": "C1",
+          "label": "AN5"
+        },
+        {
+          "label": "VIN",
+          "color": "VIN"
+        }
+      ]
+    },
+    {
+      "type": "usb",
+      "x": 505,
+      "y": 110,
+      "rxBind": "H4",
+      "txBind": "J1",
+      "rotation": 90
+    },
+    {
+      "type": "cruvils",
+      "x": 375,
+      "y": 76,
+      "rotation": -90,
+      "bind": "CRUVI_LS_1"
+    },
+    {
+      "type": "cruvihs",
+      "x": 450,
+      "y": 163,
+      "rotation": -90,
+      "bind": "CRUVI_HS_1"
+    }
   ]
 }
