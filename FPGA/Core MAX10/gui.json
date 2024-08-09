@@ -8,7 +8,7 @@
       "y": 40,
       "width": 228,
       "height": 180,
-      "color": "#42725C"
+      "color": "#366F18"
     },
     {
       "type": "rect",
@@ -16,7 +16,7 @@
       "y": 40,
       "width": 228,
       "height": 180,
-      "color": "#42725C"
+      "color": "#366F18"
     },
     {
       "type": "image",
@@ -24,6 +24,45 @@
       "x": 290,
       "y": 40,
       "height": 180
+    },
+    {
+      "type": "rect",
+      "x": 390,
+      "y": 120,
+      "height": 48,
+      "width": 48,
+      "color": "#000000",
+      "text": "FPGA"
+    },
+    {
+      "type": "rect",
+      "x": 450,
+      "y": 95,
+      "height": 34,
+      "width": 34,
+      "fontSize": 5,
+      "color": "#000000",
+      "text": "USB Programmer"
+    },
+    {
+      "type": "rect",
+      "x": 423,
+      "y": 90,
+      "height": 18,
+      "width": 18,
+      "fontSize": 5,
+      "color": "#000000",
+      "text": "FLASH"
+    },
+    {
+      "type": "rect",
+      "x": 404,
+      "y": 173,
+      "height": 34,
+      "width": 34,
+      "fontSize": 5,
+      "color": "#000000",
+      "text": "SDRAM"
     },
     {
       "type": "ellipse",
@@ -395,12 +434,86 @@
       ]
     },
     {
+      "type": "pin",
+      "x": 455,
+      "y": 135,
+      "height": 8,
+      "bind": "H6",
+      "color": "darkblue",
+      "label": "CLK",
+      "rotation": 90,
+      "textColor": "white",
+      "flipLabel": true
+    },
+    {
+      "type": "rect",
+      "x": 508,
+      "y": 48,
+      "width": 10,
+      "height": 15,
+      "color": "#BABABA"
+    },
+    {
+      "type": "pin",
+      "x": 518,
+      "y": 50,
+      "width": 6,
+      "bind": "D7",
+      "color": "#BF9507",
+      "label": "BTN",
+      "flipLabel": true
+    },
+    {
+      "type": "pin",
+      "x": 509,
+      "y": 100,
+      "width": 8,
+      "color": "lime",
+      "label": "UART LED",
+      "flipLabel": true
+    },
+    {
       "type": "usb",
-      "x": 505,
+      "x": 507,
       "y": 110,
       "rxBind": "H4",
       "txBind": "J1",
       "rotation": 90
+    },
+    {
+      "type": "pin",
+      "x": 509,
+      "y": 150,
+      "width": 8,
+      "bind": "D13",
+      "color": "red",
+      "label": "USER LED",
+      "flipLabel": true
+    },
+    {
+      "type": "rect",
+      "x": 508,
+      "y": 196,
+      "width": 10,
+      "height": 15,
+      "color": "#BABABA"
+    },
+    {
+      "type": "pin",
+      "x": 518,
+      "y": 198,
+      "width": 6,
+      "color": "#BF9507",
+      "label": "Reset",
+      "flipLabel": true
+    },
+    {
+      "type": "pin",
+      "x": 490,
+      "y": 210,
+      "height": 8,
+      "color": "lime",
+      "label": "POWER LED"
     },
     {
       "type": "cruvils",
