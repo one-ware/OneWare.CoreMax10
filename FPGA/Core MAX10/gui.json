@@ -513,7 +513,8 @@
       "y": 210,
       "height": 8,
       "color": "lime",
-      "label": "POWER LED"
+      "label": "POWER LED",
+      "textColor": "white"
     },
     {
       "type": "cruvils",
