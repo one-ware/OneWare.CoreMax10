@@ -476,8 +476,8 @@
       "type": "usb",
       "x": 507,
       "y": 110,
-      "rxBind": "H4",
-      "txBind": "J1",
+      "rxBind": "J1",
+      "txBind": "H4",
       "rotation": 90
     },
     {
